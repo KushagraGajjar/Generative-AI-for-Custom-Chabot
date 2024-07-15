@@ -1,0 +1,11 @@
+from intel_extension_for_transformers.neural_chat import PipelineConfig
+from intel_extension_for_transformers.neural_chat import build_chatbot
+from intel_extension_for_transformers.neural_chat import plugins
+plugins.tts.enable = True
+plugins.tts.args["output_audio_path"] = "./response.wav"
+plugins.asr.enable = True
+
+config = PipelineConfig(plugins=plugins)
+chatbot = build_chatbot(config)
+result = chatbot.predict(query="./sample.wav")
+print(result)
