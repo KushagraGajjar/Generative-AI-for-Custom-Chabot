@@ -1,0 +1,2 @@
+from intel_extension_for_transformers.neural_chat.chatbot import finetune_model
+finetune_model(finetune_cfg)
