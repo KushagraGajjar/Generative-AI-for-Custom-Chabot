@@ -1,0 +1,5 @@
+!pip install intel-extension-for-transformers
+!git clone https://github.com/intel/intel-extension-for-transformers.git
+%cd ./intel-extension-for-transformers/intel_extension_for_transformers/neural_chat/
+!pip install -r requirements.txt
+%cd ../../../
