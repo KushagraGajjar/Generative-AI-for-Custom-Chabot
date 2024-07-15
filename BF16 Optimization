@@ -1,0 +1,6 @@
+from intel_extension_for_transformers.neural_chat.config import PipelineConfig
+from intel_extension_for_transformers.transformers import MixedPrecisionConfig
+config = PipelineConfig(optimization_config=MixedPrecisionConfig())
+chatbot = build_chatbot(config)
+response = chatbot.predict(query="Tell me about Intel Xeon Scalable Processors.")
+print(response)
