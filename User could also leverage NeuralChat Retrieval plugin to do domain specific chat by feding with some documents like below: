@@ -1,0 +1,3 @@
+%cd ./intel-extension-for-transformers/intel_extension_for_transformers/neural_chat/pipeline/plugins/retrieval/
+!pip install -r requirements.txt
+%cd ../../../../../../
