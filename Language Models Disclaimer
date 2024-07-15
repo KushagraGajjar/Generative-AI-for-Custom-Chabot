@@ -1,0 +1,51 @@
+Camel-5B
+Model card: Camel-5B
+License: Apache 2.0
+Reference:
+@misc{Camel,
+  author = {Writer Engineering team},
+  title = {{Camel-5B InstructGPT}},
+  howpublished = {\url{https://dev.writer.com}},
+  year = 2023,
+  month = April 
+}
+OpenLLaMA 3b v2
+Model card: OpenLLaMA 3b v2
+License: Apache 2.0
+References:
+@software{openlm2023openllama,
+  author = {Geng, Xinyang and Liu, Hao},
+  title = {OpenLLaMA: An Open Reproduction of LLaMA},
+  month = May,
+  year = 2023,
+  url = {https://github.com/openlm-research/open_llama}
+}
+@software{together2023redpajama,
+  author = {Together Computer},
+  title = {RedPajama-Data: An Open Source Recipe to Reproduce LLaMA training dataset},
+  month = April,
+  year = 2023,
+  url = {https://github.com/togethercomputer/RedPajama-Data}
+}
+@article{touvron2023llama,
+  title={Llama: Open and efficient foundation language models},
+  author={Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier and Lachaux, Marie-Anne and Lacroix, Timoth{\'e}e and Rozi{\`e}re, Baptiste and Goyal, Naman and Hambro, Eric and Azhar, Faisal and others},
+  journal={arXiv preprint arXiv:2302.13971},
+  year={2023}
+}
+Falcon 7B
+Model card: Falcon 7B
+License: Apache 2.0
+References:
+  @article{falcon40b,
+    title = {{Falcon-40B}: an open large language model with state-of-the-art performance},
+    author = {Almazrouei, Ebtesam and Alobeidli, Hamza and Alshamsi, Abdulaziz and Cappelli, Alessandro and Cojocaru, Ruxandra and Debbah, Merouane and Goffinet, Etienne and Heslow, Daniel and Launay, Julien and Malrtic, Quentin and Noune, Badreddine and Pannier, Baptiste and Penedo, Guilherme},
+    year={2023}
+    }
+Zephyr 7B
+Model card: Zephyr 7B
+License: MIT
+
+Neural Chat 7b
+Model card: Neural Chat
+License: Apache 2.0
