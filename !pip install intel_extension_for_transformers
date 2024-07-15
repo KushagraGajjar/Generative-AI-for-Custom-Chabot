@@ -1,0 +1,3 @@
+%cd ./intel-extension-for-transformers/intel_extension_for_transformers/neural_chat/
+!pip install -r requirements_cpu.txt
+%cd ../../../
